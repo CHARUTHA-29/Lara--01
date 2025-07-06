@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID ||"iQA30CiL#NwZISQpEy-V_CrF0ZCCSSS3au4zVmexHWeThAXiIop0", // Add your session id
-PREFIX: process.env.PREFIX || ".",
+SESSION_ID: process.env.SESSION_ID ||"aYRjGJ4b#TyjOPeE5NvGanPfVkMpEvpkQiSZAoT5bOyYuRMANHOM", // Add your session id
+PREFIX: process.env.PREFIX || "#",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94725519305",
 DEV: process.env.DEV || "94725519305",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
@@ -18,8 +18,8 @@ AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "true",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "😶‍🌫️,☠️,👽,👾,🎃,🧑‍💻,🐶,🐱,🐭,🐹,🐰,🦊,🐻,🐼",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
